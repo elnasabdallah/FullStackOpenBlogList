@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 This project is a bloglist application. An excercise(7) of the FullstackOpen course of university of helsinki.
 
 To start, simply run :
