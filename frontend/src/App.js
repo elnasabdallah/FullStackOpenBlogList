@@ -8,7 +8,8 @@ import { fetchUsers, setUser } from "./redux/actions/userAction";
 import blogService from "./services/blogs";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { BlogView } from "./components/BlogView";
+import  BlogView  from "./components/BlogView";
+import Alert from "./components/Alert"
 
 import LoginPage from "./components/LoginPage";
 import PrivateRoute from "./components/PrivateRoute";
@@ -32,7 +33,7 @@ const App = () => {
         <Switch>
           <>
             <Header />
-
+              <Alert/>
             <PrivateRoute path="/" exact component={Home} />
             <PrivateRoute path="/users" exact component={Users} />
             <PrivateRoute path="/users/:id" component={User} />

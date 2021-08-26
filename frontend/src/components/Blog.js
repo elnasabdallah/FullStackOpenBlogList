@@ -6,8 +6,8 @@ const Blog = ({ blog }) => {
   return (
     <div className="list-group-item">
       <Link to={`/blogs/${blog.id}`}>
-        {blog.title} {blog.author}
-      </Link>
+        {blog.title} </Link>  <span className="mx-4">{blog.author}</span>
+      
     </div>
   );
 };

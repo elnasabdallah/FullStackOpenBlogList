@@ -9,7 +9,7 @@ const Login = () => {
   const [password, setPassword] = useState();
   const dispatch = useDispatch();
   const {
-    alert,
+    
     user: { signedUser },
   } = useSelector((state) => state);
   const onSubmit = (e) => {
@@ -27,7 +27,7 @@ const Login = () => {
       <form onSubmit={onSubmit} className="w-50">
         <h1>Login </h1>
 
-        {alert && <Alert alert={alert} />}
+       
 
         <div className="row mb-2">
           <div className="col-sm-12">

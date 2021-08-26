@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { fetchBlog, updateBlog } from "./../redux/actions/blogActions";
 import Comment from "./Comment";
 
-export const BlogView = () => {
+const BlogView = () => {
   const dispatch = useDispatch();
   const { id } = useParams();
 
@@ -67,7 +67,7 @@ export const BlogView = () => {
     </div>
   );
 };
-
+export default BlogView
 // const btn = {
 //   background: "blue",
 // };
