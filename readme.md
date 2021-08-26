@@ -1,4 +1,11 @@
-to run test for this section :
+# Getting Started with Create React App
 
-npm test -- test/user_api.test.js
-npm test -- test/blogs_api.test.js
+This project is a bloglist application. An excercise(7) of the FullstackOpen course of university of helsinki.
+
+To start, simply run :
+
+### npm install
+
+### npm run dev
+
+both frontend and backend will be started by concurrently
